@@ -1,0 +1,190 @@
+
+.bar{
+     font-size: 0;
+     background-color: #75CB69;
+    border: 2px solid black;
+}
+/*navigator color*/
+.navigator{
+    font-size:17px;
+    width:50%;
+    text-align: left;
+    background-color: #75CB69;
+    display:inline-block;
+}
+
+
+.login{
+      text-align: right;
+    font-size:17px;
+    width:50%;
+    display:inline-block;
+       background-color: #75CB69;
+}
+
+.login li{
+    display:inline-block;
+}
+/*Navigator element that can be clicked*/
+.navigator li {
+    color: black;
+    display: inline-block;
+}
+
+
+/*Navigator element that cannot be clicked*/
+#marked{
+    background-color: green;
+    color: black;
+    display: inline-block;
+}
+
+
+/* Month header */
+.month {
+    width: 100%;
+    background: green;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    width:100%;
+}
+
+
+body{
+ background: #E0E4DD;   
+}
+
+.textblock {
+    position: center;
+    padding:2%;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 50%;
+    height:auto;
+    background: #75CB69;
+    border: 5px solid black;
+    overflow: auto;
+}
+
+#instructions li {
+    width: 100%;
+    background: #BBF9B0;
+    margin: 0.5%;
+    text-align: left;
+    list-style-type: decimal;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+}
+#title {
+    text-align: center;
+}
+h1 {
+    font-size:200%;
+    font-family: sans-serif;
+    margin:1%;
+}
+
+#header {
+    background: #75CB69;
+    font-family: "Times New Roman", Times, serif;
+}
+
+ #image {
+     list-style-type:none;
+     height: 50%;
+     width: 50%;
+     float:right;
+     background:#75CB69;
+     border: 3px solid green;   
+}
+
+#infotext {
+      font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+}
+
+#ingredients li {
+    width: 40%;
+    background: #BBF9B0;
+    margin: 0.5%;
+    text-align: left;
+    list-style-type: disc;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+}
+
+#usercomment li {
+    width: 100%;
+    background: white;
+    margin: 0.5%;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+}
+
+.month ul li {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    font-size: 0;
+    padding:0% 0%;
+    width:100%;
+    background-color: green;
+}
+
+.weekdays li {
+    font-size: 20px;
+    display: inline-block;
+    width: 14.1457142857%;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/* Days (1-31) */
+.days {
+    font-size: 0;
+    background: #eee;
+    width: 100%;
+    text-align: left;
+    border: 1px solid green;   
+}
+
+.days li {
+    font-size: 20px;
+    display: inline-block;
+    width: 14.1457142857%;
+    height: 100px;
+    text-align: center;
+    color:black;
+    border: 1px solid #73AD21;
+    background-color:greenyellow;
+}
+
+.calendarimage { 
+        width:100%; 
+        height:100%;
+        display: inline-block;
+        vertical-align: top;
+}
+
+
+#kottbullar .active {
+background:url(kottbullar.jpeg) left top; 
+background-size: 100% 100%;
+width:100%; 
+   height:100%; 
+display: block;
+    color:white;
+}
+
+#titel{
+    text-align:center;
+}
