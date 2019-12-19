@@ -1,6 +1,0 @@
-user2
-comment2
-skim
-nice
-test
-testkommentar

@@ -1,4 +1,0 @@
-test
-testkommentar
-user2
-test
