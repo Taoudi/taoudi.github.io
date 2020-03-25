@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Profile</title>
+ <link rel="stylesheet" href="reset.css">
+         <link rel="stylesheet" href="bootstrap/css/bootstrap.css" crossorigin="anonymous">
+        <meta charset="utf-8">
+        </head>
+    
+    
+    
+   <div class="row">
+    <div class="col-xs-2"><a href="MyLists.html"><p  class="display-1 white"><</p></a></div>
+    <div class="col-xs-8"><p class="display-1">List 1</p></div>
+    <div class="col-xs-2"><p class="display-1">     </p></div>
+    </div>    
+    
+    <div data-bind="visible: !settle() && !remind()">
+    <p>Group Members:</p>
+    <ul class="list-group">
+  <li  class="list-group-item">Oscar</li>
+  <li class="list-group-item">Maja</li>
+</ul>
+    <p>Description:</p>
+    <ul class="list-group">
+  <li  class="list-group-item">Keep track of grocery costs!</li>
+</ul>
+    <button data-bind="click: showSettle"type="button" class="btn btn-info btn-block">Settle Up</button>
+    <button data-bind="click: showRemind" type="button" class="btn btn-danger btn-block">Remind</button>
+        </div>
+    
+    <div data-bind="visible: remind() || settle()">
+        
+         <ul class="list-group">
+  <li  class="list-group-item">Oscar<div class="rightfull"><a href="SettleUp.html" data-bind="visible: settle()"type="button" class="btn btn-info">Settle Up</a> <button data-bind="visible: remind()"type="button" class="btn btn-danger">Remind</button></div></li>
+             
+  <li  class="list-group-item">Maja<div class="rightfull"><button data-bind="visible: settle()"type="button" class="btn btn-info">Settle Up</button>
+      <button data-bind="visible: remind()"type="button" class="btn btn-danger">Remind</button></div></li>
+</ul>
+
+    
+    </div>
+
+<div class="text-center">
+<div class="btn-group btn-group-justified" role="toolbar" aria-label="...">
+<a href="AddBill.html" class="btn btn-primary btn-lg" role="button" aria-disabled="false">+</a>
+    <a href="Friends.html" class="btn btn-primary btn-lg" role="button" aria-disabled="false">Friends</a>
+    <a href="MyLists.html" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Lists</a>
+    <a href="Profile.html" class="btn btn-primary btn-lg" role="button" aria-disabled="false">Profile</a>
+</div>
+</div>
+<script type='text/javascript' src="knockout.js"></script>
+        <script type='text/javascript' src="SettleRemind.js"></script>
+</html>
